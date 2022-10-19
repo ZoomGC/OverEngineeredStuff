@@ -1,9 +1,7 @@
 def userinput():
     num1 = int(input("Enter your first number: "))
     num2 = int(input("Enter your second number: "))
-    numstr = str(num1)
-    numstr2 = str(num2)
-    main(numstr, numstr2)
+    main(str(num1), str(num2))
 
 
 def main(num1, num2):
